@@ -1,0 +1,97 @@
+@import './global.css';
+
+#servicos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1440px;
+    height: 856px;
+    padding-top: 100px;
+    padding-right: 120px;
+    padding-bottom: 110px;
+    padding-left: 120px;
+    gap: 22px;
+    opacity: 1;
+    background-color: #0B0A12;
+    
+}
+#eyebrow{
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 13px;
+    line-height: 120%;
+    letter-spacing: 18%;
+    color: #A55AD7;
+}
+#sectionTitle{
+    font-family: Poppins;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 38px;
+    line-height: 115.99999999999999%;
+    letter-spacing: 0%;
+    color: #F7F4FB;
+}
+#intro{
+    Width: 820px; 
+    Height: 48px;
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #C8BDD4;
+}
+
+.servicesGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 1174px;
+    height: 472px;
+    padding-top: 26px;
+    gap: 26px;
+    opacity: 1;
+}
+
+.servicesCard{
+    display: flex;
+    flex-direction: column;
+    width: 374px;
+    height: 210px;
+    padding-top: 28px;
+    padding-right: 26px;
+    padding-bottom: 28px;
+    padding-left: 26px;
+    gap: 14px;
+    opacity: 1;
+    border-radius: 18px;
+    background-color: #2E2540;
+    justify-content: space-evenly;
+}
+
+.cardTitle{
+    width: 310px;
+    height: 20px;
+    opacity: 1;
+    font-family: Poppins;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 17px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #F7F4FB;
+}
+
+.cardParagraph{
+    font-family: Inter;
+    font-weight: 400px;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #C8BDD4;
+}
