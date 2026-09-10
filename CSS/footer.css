@@ -1,0 +1,80 @@
+@import './global.css';
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 72px 120px 28px 120px;
+    background-color: #14111C;
+}
+
+.rodape-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 112px;
+    margin-bottom: 34px;
+    color: #F7F4FB;
+}
+
+.rodape-colunas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1200px;
+    height: 150px;
+    margin-bottom: 34px;
+}
+
+.rodape-coluna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.rodape-coluna h5 {
+    margin: 0 0 16px 0;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #B48CFF;
+}
+
+.rodape-coluna nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rodape-coluna a,
+.rodape-coluna p {
+    color: #F7F4FB;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 0 0 10px 0;
+}
+
+.rodape-coluna a:hover {
+    text-decoration: underline;
+}
+
+.rodape-linha {
+    width: 1200px;
+    height: 1px;
+    border: none;
+    background-color: #6E3FA3;
+    opacity: 0.35;
+    margin-bottom: 24px;
+}
+
+.rodape-direitos {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: #9C93B5;
+    margin: 0;
+}
+
