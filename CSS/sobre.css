@@ -1,0 +1,60 @@
+.sobre-nos-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0B0A12;
+    
+}
+
+.sobre-icone {
+    width: 105;
+    height: 105;
+    opacity: 0.38;
+    top: 44px;
+    left: 82px;
+    background-color: #C8BDD4;
+}
+
+.sobre-atuacao-titulo{
+    color: #C57AF1;
+}
+.sobre-atuacao-paragrafo{
+    color: white;
+}
+
+.sobre-gente h2{
+    color: #C57AF1;
+}
+
+.sobre-gente p{
+    color: white;
+}
+
+.sobre-pessoas-card-top{
+    background-color: #422E59;
+    padding: 16px 8px;
+    width: 270px;
+    height: 215px;
+}
+
+.obre-pessoas-card-bottom{
+    background-color: #A55AD7;
+    padding: 16px 8px;
+    width: 270px;
+    height: 85px;
+    opacity: 1;
+    gap: 2px;
+
+}
+
+.sobre-pessoas-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,132 @@
+.contato-section {
+    width: 100%;
+    background-color: #0b0a12;
+    display: flex;
+    justify-content: center;
+}
+
+.contato-wrapper {
+    width: min(1174px, calc(100% - 48px));
+    padding: 60px 0 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contato-titulo {
+    margin-bottom: 44px;
+}
+
+.contato-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.contato-imagem,
+.contato-imagem img {
+    width: 500px;
+    height: 360px;
+}
+
+.contato-imagem {
+    flex: 0 1 500px;
+}
+
+.contato-imagem img {
+    display: block;
+    max-width: 100%;
+    border-radius: 22px;
+    object-fit: cover;
+}
+
+.contato-formulario {
+    width: 560px;
+    min-height: 530px;
+    padding: 30px 34px;
+    border: 2px solid #a55ad7;
+    border-radius: 22px;
+    background-color: #2e2540;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.formulario-titulo {
+    font-family: 'Poppins', sans-serif;
+    color: #b061e0;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.formulario-texto {
+    font-family: 'Inter', sans-serif;
+    color: #c8bdd4;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0 0 10px;
+}
+
+.contato-formulario form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.contato-formulario label {
+    font-family: 'Inter', sans-serif;
+    color: #f7f4fb;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.contato-formulario input,
+.contato-formulario textarea {
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    color: #f7f4fb;
+    background-color: #140f1f;
+    border: 1px solid #a55ad7;
+    border-radius: 6px;
+    padding: 10px 12px;
+    font-size: 14px;
+    outline: none;
+}
+
+.contato-formulario input {
+    height: 40px;
+}
+
+.contato-formulario textarea {
+    height: 70px;
+    resize: none;
+}
+
+.contato-formulario input:focus,
+.contato-formulario textarea:focus {
+    border-color: #b061e0;
+}
+
+.contato-formulario button {
+    align-self: flex-start;
+    min-width: 110px;
+    height: 46px;
+    font-family: 'Inter', sans-serif;
+    color: #f7f4fb;
+    background-color: #a55ad7;
+    border: 0;
+    border-radius: 6px;
+    padding: 0 20px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.contato-formulario button:hover {
+    background-color: #b061e0;
+}

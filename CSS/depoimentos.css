@@ -1,0 +1,78 @@
+.depoimentos-section {
+    width: 100%;
+    background-color: #0b0a12;
+    display: flex;
+    justify-content: center;
+}
+
+.depoimentos-wrapper {
+    width: min(1174px, calc(100% - 48px));
+    padding: 100px 0 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.depoimentos-label,
+.contato-label {
+    font-family: 'Inter', sans-serif;
+    color: #a55ad7;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    line-height: 1.2;
+}
+
+.depoimentos-titulo,
+.contato-titulo {
+    font-family: 'Poppins', sans-serif;
+    color: #f7f4fb;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1.16;
+    margin: 14px 0 44px;
+}
+
+.depoimentos-container {
+    display: flex;
+    gap: 26px;
+    width: 100%;
+}
+
+.depoimento-card {
+    flex: 1;
+    min-height: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #2e2540;
+    border-radius: 18px;
+    padding: 28px 26px;
+    gap: 16px;
+}
+
+.depoimento-icone {
+    width: 32px;
+    height: 32px;
+    flex: 0 0 32px;
+    border-radius: 50%;
+    background-color: #a55ad7;
+}
+
+.depoimento-texto {
+    font-family: 'Inter', sans-serif;
+    color: #f7f4fb;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.depoimento-nome {
+    font-family: 'Inter', sans-serif;
+    color: #f7f4fb;
+    font-size: 14px;
+    font-weight: 600;
+}
