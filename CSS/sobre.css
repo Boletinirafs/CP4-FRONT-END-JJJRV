@@ -62,6 +62,7 @@
 
 .sobre-gente p{
     color: #C8BDD4;
+    font-family: 'Inter', sans-serif;
 }
 
 .sobre-pessoas-card-top{
@@ -119,4 +120,8 @@
 
 .sobre-atuacao img{
     border-radius: 22px;
+}
+
+.sobre-pessoas-card-bottom span{
+    font-family: 'Inter', sans-serif;
 }
