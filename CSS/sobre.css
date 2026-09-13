@@ -3,24 +3,57 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #0B0A12;
-    
+    background-color: #14111C;
+    font-family: 'Poppins', sans-serif;
+    padding: 50px 120px 50px 120px;
+    gap: 44px;
+    height: 1142px;
 }
 
 .sobre-icone {
-    width: 105;
-    height: 105;
-    opacity: 0.38;
+    width: 105px;
+    height: 105px;
     top: 44px;
     left: 82px;
     background-color: #C8BDD4;
+    opacity: 0.38;
+}
+
+.sobre-atuacao{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
 }
 
 .sobre-atuacao-titulo{
     color: #C57AF1;
+    font-family: 'Poppins', sans-serif;
+    size: 22px;
+    line-height: 120%;
 }
+
 .sobre-atuacao-paragrafo{
-    color: white;
+    color: #C8BDD4;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    font-style: Regular;
+    line-height: 150%;
+    gap: 10px;
+    size: 16px;
+}
+
+.sobre-gente{
+    background-color: #241D31;
+    padding: 18px 44px 44px 44px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    border-radius: 24px;
+    height: 470px;
+    width: 1200px;
 }
 
 .sobre-gente h2{
@@ -28,7 +61,7 @@
 }
 
 .sobre-gente p{
-    color: white;
+    color: #C8BDD4;
 }
 
 .sobre-pessoas-card-top{
@@ -36,25 +69,54 @@
     padding: 16px 8px;
     width: 270px;
     height: 215px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.obre-pessoas-card-bottom{
+.sobre-pessoas-card-bottom{
     background-color: #A55AD7;
     padding: 16px 8px;
     width: 270px;
     height: 85px;
     opacity: 1;
     gap: 2px;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #F7F4FB;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
 }
 
 .sobre-pessoas-card{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    gap: 22px;
 }
 
 .card{
     display: flex;
     flex-direction: column;
+}
+
+.sobre-titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sobre-titulo h2{
+    padding: 16px;
+}
+
+.sobre-titulo h3{
+    padding: 0 0 20px 0;
+}
+
+.sobre-atuacao img{
+    border-radius: 22px;
 }
